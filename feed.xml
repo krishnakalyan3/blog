@@ -1,6 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-24T15:49:57-05:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">My Blog</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">PC for Deep Learning in 2020</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html" rel="alternate" type="text/html" title="PC for Deep Learning in 2020" /><published>2020-10-22T00:00:00-05:00</published><updated>2020-10-22T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html">&lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-26T17:21:27-05:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">My Blog</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Building a PC for Deep Learning in 2020 - Part 2</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="Building a PC for Deep Learning in 2020 - Part 2" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;/h2&gt;
+&lt;p&gt;Before you begin installing make&lt;/p&gt;
+
+&lt;h3 id=&quot;bios&quot;&gt;BIOS&lt;/h3&gt;
+
+&lt;h3 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h3&gt;
+
+&lt;h3 id=&quot;windows&quot;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;You can download Windows 10 ISO from &lt;a href=&quot;https://www.microsoft.com/de-de/software-download/windows10&quot;&gt;here&lt;/a&gt;. Incase you do &lt;a href=&quot;https://www.howtogeek.com/244678/you-dont-need-a-product-key-to-install-and-use-windows-10/&quot;&gt;not have a product key it not end of the world&lt;/a&gt;. You will need to pay extra for a copy of Windows.&lt;/p&gt;
+
+&lt;h2 id=&quot;benchmarking&quot;&gt;Benchmarking&lt;/h2&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">Motivation</summary></entry><entry><title type="html">Building a PC for Deep Learning in 2020 - Part 1</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html" rel="alternate" type="text/html" title="Building a PC for Deep Learning in 2020 - Part 1" /><published>2020-10-22T00:00:00-05:00</published><updated>2020-10-22T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html">&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
+&lt;p&gt;Since I live in Germany, I bought all my parts from Mindfactory. I sold my &lt;a href=&quot;mresell.de&quot;&gt;Macbook Air&lt;/a&gt; for 262€. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: Its easier that you think) My PC parts below.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Parts&lt;/th&gt;
+      &lt;th&gt;Company&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Price (Euros)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mother Board&lt;/td&gt;
+      &lt;td&gt;Gigabyte Z390 AORUS PRO&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;170.81&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Processor&lt;/td&gt;
+      &lt;td&gt;Intel Core i9-9900 3.1 GHz 8-Core Processor&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;346.89&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cooler&lt;/td&gt;
+      &lt;td&gt;be quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;67.22&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PSU&lt;/td&gt;
+      &lt;td&gt;be quiet! Straight Power 11 750 W 80+ Gold&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;115.85&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RAM&lt;/td&gt;
+      &lt;td&gt;G.Skill Aegis 16 GB (2 x 8 GB) DDR4-3000 CL16 Memory&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;45.80&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Storage&lt;/td&gt;
+      &lt;td&gt;Crucial P1 1 TB M.2-2280 NVME Solid State Drive&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;94.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Case&lt;/td&gt;
+      &lt;td&gt;be quiet! Silent Base 601 ATX Mid Tower Case&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;106.68&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gold Service&lt;/td&gt;
+      &lt;td&gt;Mindfactory&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4.90&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GPU&lt;/td&gt;
+      &lt;td&gt;RTX 30xx&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;NA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grand Total&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;952.15&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Q: Why would you build a PC when you can do everything on the Cloud?.
+A: I wanted to build a PC that could be used for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Deep Learning&lt;/code&gt; and for playing strategy games on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;steam&lt;/code&gt;. I also wanted to have complete control over all the part so that I can upgrade later easily.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;PC Part Picker&quot;&gt;https://pcpartpicker.com/list/3WFqsX&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">Basic setup</summary></entry></feed>
+  &lt;li&gt;Wanted to play Computer Games on Windows.&lt;/li&gt;
+  &lt;li&gt;Did I forget to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stop&lt;/code&gt; the EC2 instance I was working on?.&lt;/li&gt;
+  &lt;li&gt;Wanted to do something creative at Home. (Thanks to a Pandemic)&lt;/li&gt;
+  &lt;li&gt;Complete control over my PC and configuration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
+&lt;p&gt;Use PC PartPicker. Choose your parts wisely, if not you will be will warned that you are building a PC with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;incompatible&lt;/code&gt; parts.&lt;/p&gt;
+
+&lt;h3 id=&quot;motherboard&quot;&gt;Motherboard&lt;/h3&gt;
+&lt;p&gt;Choose your motherboard first. Make sure that it fits your requirements. I needed a motherboard with atleast &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; RAM slots and atleast &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; PCIe lanes for GPUs. The type of motherboard changes based on the processor you choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AMD / Intel&lt;/code&gt;. I got a great deal on Intel CPU and hence my current configuration.&lt;/p&gt;
+
+&lt;h3 id=&quot;cpu&quot;&gt;CPU&lt;/h3&gt;
+&lt;p&gt;Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU &lt;a href=&quot;https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html&quot;&gt;core&lt;/a&gt; instead of one per core). This is useful if you want to process data in parallel. Hence, based on my budget I choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Intel Core i9-9900&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;power-supply&quot;&gt;Power Supply&lt;/h3&gt;
+
+&lt;h3 id=&quot;ram&quot;&gt;RAM&lt;/h3&gt;
+
+&lt;h3 id=&quot;cpu-cooling&quot;&gt;CPU Cooling&lt;/h3&gt;
+
+&lt;h3 id=&quot;nvme&quot;&gt;NVMe&lt;/h3&gt;
+
+&lt;h3 id=&quot;gpu&quot;&gt;GPU&lt;/h3&gt;
+&lt;p&gt;Right now there is a &lt;a href=&quot;https://hothardware.com/news/nvidia-posts-expanded-qa-following-geforce-rtx-3080-launch-fiasco&quot;&gt;shortage of GPUs&lt;/a&gt; in the Market. I decided to wait it out. The new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RTX 30xx&lt;/code&gt; series is cheaper and faster than the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RTX 20xx&lt;/code&gt; series. The downsides being that there might be issues / bugs in hardware as it not been tried and tested by users in the market.&lt;/p&gt;
+
+&lt;h3 id=&quot;storage--cabinet-and-other-parts&quot;&gt;Storage / Cabinet and Other Parts&lt;/h3&gt;
+&lt;p&gt;Make sure you already have an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;External Monitor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mouse&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Keyboard&lt;/code&gt;. You might also need to buy a good &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;power strip&lt;/code&gt; for powering up your monitors and PSU. Keep screwdrivers handy.&lt;/p&gt;
+
+&lt;h3 id=&quot;assembling&quot;&gt;Assembling&lt;/h3&gt;
+&lt;p&gt;I would first check if all parts are working before installing the part to the Cabinet. This way you can check for defects and order replacements quickly if required.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motherboard lies on its box&lt;/li&gt;
+  &lt;li&gt;Install RAM&lt;/li&gt;
+  &lt;li&gt;Install NVMe&lt;/li&gt;
+  &lt;li&gt;Install CPU&lt;/li&gt;
+  &lt;li&gt;Install Cooler&lt;/li&gt;
+  &lt;li&gt;Connect PSU to the Motherboard&lt;/li&gt;
+  &lt;li&gt;Connect Cabinet Power to the Motherboard&lt;/li&gt;
+  &lt;li&gt;Connect Keyboard, Monitor to the Motherboard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have connect everything so far. Switch on the PSU and press the power button. If everything is setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Do not bend the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pin(s)&lt;/code&gt; like I did.&lt;/p&gt;
+
+&lt;h2 id=&quot;mindfactory&quot;&gt;Mindfactory&lt;/h2&gt;
+&lt;p&gt;I found Mindfactory to be the best in terms of the prices offered / customer service. I had an issue with my Motherboard (Completely my fault). They found out the root cause (Bent Pin) and replace it with a new one. Make sure that you also buy gold service level so that they can prioritise your order requests.&lt;/p&gt;
+
+&lt;p&gt;Hacks:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Order after 00:00 hrs (Free shipping)&lt;/li&gt;
+  &lt;li&gt;Order All parts together (Gold service - valid per invoice)&lt;/li&gt;
+  &lt;li&gt;Check out their deals (Deals on a part that you are interested in?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling it by asking Mindfactory to do it for you / your local PC store will do it for you too (Approx 100 to 200 €).&lt;/p&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;My Build on PC Part Picker&quot;&gt;https://pcpartpicker.com/list/3WFqsX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;Tim Dettmers Blog&quot;&gt;https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;Build your deep learning box Fast AI thread&quot;&gt;https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;Mindfactory&quot;&gt;https://www.mindfactory.de/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">Hardware Since I live in Germany, I bought all my parts from Mindfactory. I sold my Macbook Air for 262€. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: Its easier that you think) My PC parts below.</summary></entry></feed>
