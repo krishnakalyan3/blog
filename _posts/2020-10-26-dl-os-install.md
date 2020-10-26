@@ -1,16 +1,16 @@
 ---
 toc: true
 layout: post
-description: Building A DeepLearning PC in 2020
+description: About dual booting and performance benchmarking
 categories: [markdown]
-title: Building a PC for Deep Learning in 2020 - Part 2
+title: Operating System Setup
 ---
 
 ## Motivation
 
 
 ## Operating System
-Before you begin installing make
+Before you begin installing 2 USB stick
 
 ### BIOS
 

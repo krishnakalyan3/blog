@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: Building A DeepLearning PC in 2020
+description: My hardware setup with all the Juicy details
 categories: [markdown]
-title: Building a PC for Deep Learning in 2020 - Part 1
+title: Building a PC for Deep Learning in 2020
 ---
 
 ## Hardware
@@ -66,7 +66,7 @@ I would first check if all parts are working before installing the part to the C
 - Connect Cabinet Power to the Motherboard
 - Connect Keyboard, Monitor to the Motherboard
 
-Once you have connect everything so far. Switch on the PSU and press the power button. If everything is setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Do not bend the `pin(s)` like I did.
+Once you have connect everything so far, switch on the PSU and press the power button. If everything is setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Do not bend the `pin(s)` like I did.
 
 ## Mindfactory
 I found Mindfactory to be the best in terms of the prices offered / customer service. I had an issue with my Motherboard (Completely my fault). They found out the root cause (Bent Pin) and replace it with a new one. Make sure that you also buy gold service level so that they can prioritise your order requests.
