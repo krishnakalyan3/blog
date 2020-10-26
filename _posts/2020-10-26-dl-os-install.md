@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: About dual booting and performance benchmarking
 categories: [markdown]
 title: Operating System Setup

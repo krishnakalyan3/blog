@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: My hardware setup with all the Juicy details
 categories: [markdown]
 title: Building a PC for Deep Learning in 2020
