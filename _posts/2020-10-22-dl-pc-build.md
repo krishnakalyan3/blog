@@ -2,7 +2,7 @@
 toc: true
 layout: post
 comments: true
-description: My hardware setup with all the Juicy details
+description: My hardware setup with all the juicy details
 categories: [markdown]
 title: Building a PC for Deep Learning in 2020
 ---
@@ -37,6 +37,8 @@ Use PC PartPicker. Choose your parts wisely, if not you will be will warned that
 
 ### Motherboard
 Choose your motherboard first. Make sure that it fits your requirements. I needed a motherboard with atleast `4` RAM slots and atleast `2` PCIe lanes for GPUs. The type of motherboard changes based on the processor you choose `AMD / Intel`. I got a great deal on Intel CPU and hence my current configuration.
+
+> Deep Learning on an overclocked machine does not lead to performance improvement.
 
 ### CPU
 Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU [core](https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html) instead of one per core). This is useful if you want to process data in parallel. Hence, based on my budget I choose `Intel Core i9-9900`.
