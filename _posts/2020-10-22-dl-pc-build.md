@@ -26,12 +26,7 @@ Grand Total| | 952.15
 
 ## Motivation
 Q: Why would you build a PC when you can do everything on the Cloud?.
-A: I wanted to build a PC that could be used for `Deep Learning` and for playing strategy games on `steam`. I also wanted to have complete control over all the part so that I can upgrade later easily.
-
-- Wanted to play Computer Games on Windows.
-- Did I forget to `stop` the EC2 instance I was working on?.
-- Wanted to do something creative at Home. (Thanks to a Pandemic)
-- Complete control over my PC and configuration.
+A: I wanted to build a PC that could be used for `Deep Learning`. I also wanted to have complete control over all the part so that I can upgrade later easily. That's what I want you to believe, the truth is that I want to play computer games ;).
 
 ## Basic setup
 Use PC PartPicker. Choose your parts wisely, if not you will be will warned that you are building a PC with `incompatible` parts.
