@@ -76,7 +76,7 @@ Hacks:
 - Check out their deals (Deals on a part that you are interested in?)
 
 ## Final Thoughts
-If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling it by asking Mindfactory to do it for you / your local PC store will do it for you too (Approx `100-200€`). I sold my [Macbook Air](mresell.de) for `262€`.
+If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx `100-200€`). I sold my [Macbook Air](mresell.de) for `262€`.
 
 ## Links
 - [https://pcpartpicker.com/list/3WFqsX](My Build on PC Part Picker)
