@@ -9,7 +9,7 @@ image: images/PC.jpg
 ---
 
 ## Hardware
-Since I live in Germany, I bought all my parts from Mindfactory. I sold my [Macbook Air](mresell.de) for 262€. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: Its easier that you think) My PC parts below.
+Since I live in Germany, I bought all my parts from Mindfactory. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: It might be easier that you think)
 
 | Parts | Company | Price (Euros)
 --- | --- | ---:
@@ -34,7 +34,7 @@ Use PC PartPicker. Choose your parts wisely, if not you will be will warned that
 ### Motherboard
 Choose your motherboard first. Make sure that it fits your requirements. I needed a motherboard with atleast `4` RAM slots and atleast `2` PCIe lanes for GPUs. The type of motherboard changes based on the processor you choose `AMD / Intel`. I got a great deal on Intel CPU and hence my current configuration.
 
-> Deep Learning on an overclocked machine does not lead to performance improvement.
+> Deep Learning on an overclocked machine does not lead to performance improvements.
 
 ### CPU
 Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU [core](https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html) instead of one per core). This is useful if you want to process data in parallel. Hence, based on my budget I choose `Intel Core i9-9900`.
@@ -76,7 +76,7 @@ Hacks:
 - Check out their deals (Deals on a part that you are interested in?)
 
 ## Final Thoughts
-If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling it by asking Mindfactory to do it for you / your local PC store will do it for you too (Approx 100 to 200 €).
+If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling it by asking Mindfactory to do it for you / your local PC store will do it for you too (Approx `100-200€`). I sold my [Macbook Air](mresell.de) for `262€`.
 
 ## Links
 - [https://pcpartpicker.com/list/3WFqsX](My Build on PC Part Picker)
