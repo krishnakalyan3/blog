@@ -5,6 +5,7 @@ comments: true
 description: My hardware setup with all the juicy details
 categories: [markdown]
 title: Building a PC for Deep Learning in 2020
+image: images/PC.jpg
 ---
 
 ## Hardware
