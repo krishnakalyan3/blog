@@ -6,7 +6,7 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: My Blog
+title: Latent Tendencies
 description: An easy to use blogging platform with support for Jupyter Notebooks.
 github_username: krishnakalyan3
 # you can comment the below line out if your repo name is not different than your baseurl
@@ -42,6 +42,7 @@ minima:
     twitter: krishnakalyan3
     github: krishnakalyan3
     instagram: krishnakalyan3
+    linkedin: krishnakalyan3
 
 # Set this to true to get LaTeX math equation support
 use_math: true
