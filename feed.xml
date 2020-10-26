@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-26T18:16:03-05:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Operating System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="Operating System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-26T18:27:13-05:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Operating System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="Operating System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 
 &lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;/h2&gt;
 &lt;p&gt;Before you begin installing 2 USB stick&lt;/p&gt;
@@ -77,14 +77,7 @@
 
 &lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Q: Why would you build a PC when you can do everything on the Cloud?.
-A: I wanted to build a PC that could be used for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Deep Learning&lt;/code&gt; and for playing strategy games on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;steam&lt;/code&gt;. I also wanted to have complete control over all the part so that I can upgrade later easily.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Wanted to play Computer Games on Windows.&lt;/li&gt;
-  &lt;li&gt;Did I forget to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stop&lt;/code&gt; the EC2 instance I was working on?.&lt;/li&gt;
-  &lt;li&gt;Wanted to do something creative at Home. (Thanks to a Pandemic)&lt;/li&gt;
-  &lt;li&gt;Complete control over my PC and configuration.&lt;/li&gt;
-&lt;/ul&gt;
+A: I wanted to build a PC that could be used for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Deep Learning&lt;/code&gt;. I also wanted to have complete control over all the part so that I can upgrade later easily. That’s what I want you to believe, the truth is that I want to play computer games ;).&lt;/p&gt;
 
 &lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
 &lt;p&gt;Use PC PartPicker. Choose your parts wisely, if not you will be will warned that you are building a PC with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;incompatible&lt;/code&gt; parts.&lt;/p&gt;
