@@ -4,7 +4,6 @@ layout: post
 comments: true
 description: My hardware setup with all the juicy details
 categories: [markdown]
-image: images/pc2.png
 title: Building a PC for Deep Learning
 ---
 
