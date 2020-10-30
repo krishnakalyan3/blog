@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Operating System Setup",
-            "content": "Motivation . Operating System . Before you begin installing 2 USB stick . BIOS . Ubuntu . Windows . You can download Windows 10 ISO from here. Incase you do not have a product key it not end of the world. You will need to pay extra for a copy of Windows. . Benchmarking . Mindfactory . I found Mindfactory to be the best in terms of the prices offered / customer service. I had an issue with my Motherboard (Completely my fault). They found out the root cause (Bent Pin) and replace it with a new one. Make sure that you also buy gold service level so that they can prioritise your order requests. . Hacks: . Order after 00:00 hrs (Free shipping) | Order All parts together (Gold service - valid per invoice) | Check out their deals (Deals on a part that you are interested in?) | . https://www.userbenchmark.com/UserRun/34764324 .",
+            "title": "System Setup",
+            "content": "Operating System . Before you begin installing 2 USB sticks. They will be used for creating bootable USB disks for Ubuntu and Windows. . BIOS . Ubuntu . Windows . You can download Windows 10 ISO from here. Incase you do not have a product key it not end of the world. You will need to pay extra for a copy of Windows. . Benchmarking . By downloading this software you can check . Mindfactory . I found Mindfactory to be the best in terms of the prices offered / customer service. I had an issue with my Motherboard (Completely my fault). They found out the root cause (Bent Pin) and replace it with a new one. Make sure that you also buy gold service level so that they can prioritise your order requests. . Hacks: . Order after 00:00 hrs (Free shipping) | Order All parts together (Gold service - valid per invoice) | Check out their deals (Deals on a part that you are interested in?) | . Links . My User Benchmarks | .",
             "url": "https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html",
             "relUrl": "/markdown/2020/10/26/dl-os-install.html",
             "date": " • Oct 26, 2020"
