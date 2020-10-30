@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-30T09:05:15-05:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><entry><title type="html">Operating System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="Operating System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-30T09:08:54-05:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><entry><title type="html">Operating System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="Operating System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 
 &lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;/h2&gt;
 &lt;p&gt;Before you begin installing 2 USB stick&lt;/p&gt;
@@ -156,9 +156,9 @@
 
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;My Build on PC Part Picker&quot;&gt;https://pcpartpicker.com/list/3WFqsX&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;Tim Dettmers Blog&quot;&gt;https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;Build your deep learning box Fast AI thread&quot;&gt;https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;Mindfactory&quot;&gt;https://www.mindfactory.de/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pcpartpicker.com/list/3WFqsX&quot;&gt;My Build on PC Part Picker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/&quot;&gt;Tim Dettmers Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155&quot;&gt;Build your deep learning box Fast AI thread&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mindfactory.de/&quot;&gt;Mindfactory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.userbenchmark.com/UserRun/34764324&quot;&gt;My User Benchmarks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">Hardware Since I live in Germany, I bought all my parts from Mindfactory. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: It might be easier that you think)</summary></entry></feed>
