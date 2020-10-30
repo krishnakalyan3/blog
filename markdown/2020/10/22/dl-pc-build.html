@@ -115,16 +115,15 @@ window.onload = wrap_img;
 <ul>
 <li class="toc-entry toc-h3"><a href="#motherboard">Motherboard</a></li>
 <li class="toc-entry toc-h3"><a href="#cpu">CPU</a></li>
-<li class="toc-entry toc-h3"><a href="#power-supply">Power Supply</a></li>
 <li class="toc-entry toc-h3"><a href="#ram">RAM</a></li>
-<li class="toc-entry toc-h3"><a href="#cpu-cooling">CPU Cooling</a></li>
+<li class="toc-entry toc-h3"><a href="#cooling">Cooling</a></li>
 <li class="toc-entry toc-h3"><a href="#nvme">NVMe</a></li>
 <li class="toc-entry toc-h3"><a href="#gpu">GPU</a></li>
+<li class="toc-entry toc-h3"><a href="#power-supply">Power Supply</a></li>
 <li class="toc-entry toc-h3"><a href="#storage--cabinet-and-other-parts">Storage / Cabinet and Other Parts</a></li>
 <li class="toc-entry toc-h3"><a href="#assembling">Assembling</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#mindfactory">Mindfactory</a></li>
 <li class="toc-entry toc-h2"><a href="#final-thoughts">Final Thoughts</a></li>
 <li class="toc-entry toc-h2"><a href="#links">Links</a></li>
 </ul><h2 id="hardware">
@@ -195,16 +194,17 @@ window.onload = wrap_img;
 
 <h2 id="motivation">
 <a class="anchor" href="#motivation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Motivation</h2>
-<p>Q: Why would you build a PC when you can do everything on the Cloud?.
-A: I wanted to build a PC that could be used for <code class="language-plaintext highlighter-rouge">Deep Learning</code>. I also wanted to have complete control over all the part so that I can upgrade later easily. That’s what I want you to believe, the truth is that I want to play computer games ;).</p>
+<p>Q: Why would you build a PC when you can do everything on the Cloud?.</p>
+
+<p>A: I wanted to build a PC that could be used for <code class="language-plaintext highlighter-rouge">Deep Learning</code>. I also wanted to have complete control over hardware for upgradability. That’s what I want you to believe, the truth is that I want to play computer games ;).</p>
 
 <h2 id="basic-setup">
 <a class="anchor" href="#basic-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic setup</h2>
-<p>Use PC PartPicker. Choose your parts wisely, if not you will be will warned that you are building a PC with <code class="language-plaintext highlighter-rouge">incompatible</code> parts.</p>
+<p>Use PC PartPicker. This helps you to choose your parts wisely, if not you will be will warned that you are building a PC with <code class="language-plaintext highlighter-rouge">incompatible</code> parts.</p>
 
 <h3 id="motherboard">
 <a class="anchor" href="#motherboard" aria-hidden="true"><span class="octicon octicon-link"></span></a>Motherboard</h3>
-<p>Choose your motherboard first. Make sure that it fits your requirements. I needed a motherboard with atleast <code class="language-plaintext highlighter-rouge">4</code> RAM slots and atleast <code class="language-plaintext highlighter-rouge">2</code> PCIe lanes for GPUs. The type of motherboard changes based on the processor you choose <code class="language-plaintext highlighter-rouge">AMD / Intel</code>. I got a great deal on Intel CPU and hence my current configuration.</p>
+<p>Choose your motherboard first. Make sure that it fits your requirements (You will need to decide if you want to go for an AMD or an Intel Motherboard). I needed a motherboard with atleast <code class="language-plaintext highlighter-rouge">4</code> RAM slots and atleast <code class="language-plaintext highlighter-rouge">2</code> PCIe lanes for GPUs. I got a great deal on Intel CPU and hence my current configuration. Just buy any decent motherboard in the market. There are lot of companies that sell motherboards that can be overclocked. You might not need it for deep learning.</p>
 
 <blockquote>
   <p>Deep Learning on an overclocked machine does not lead to performance improvements.</p>
@@ -212,23 +212,39 @@ A: I wanted to build a PC that could be used for <code class="language-plaintext
 
 <h3 id="cpu">
 <a class="anchor" href="#cpu" aria-hidden="true"><span class="octicon octicon-link"></span></a>CPU</h3>
-<p>Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU <a href="https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html">core</a> instead of one per core). This is useful if you want to process data in parallel. Hence, based on my budget I choose <code class="language-plaintext highlighter-rouge">Intel Core i9-9900</code>.</p>
-
-<h3 id="power-supply">
-<a class="anchor" href="#power-supply" aria-hidden="true"><span class="octicon octicon-link"></span></a>Power Supply</h3>
+<p>Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU <a href="https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html">core</a> instead of one per core). This is useful if you want to process data in parallel. Hence, I choose <code class="language-plaintext highlighter-rouge">Intel Core i9-9900</code>.</p>
 
 <h3 id="ram">
 <a class="anchor" href="#ram" aria-hidden="true"><span class="octicon octicon-link"></span></a>RAM</h3>
+<p>I choose 16 GB RAM begin with. I intend to expand to 32GB later. That’s the reason why I needed a Motherboard with <code class="language-plaintext highlighter-rouge">4</code> RAM slots. Incase you intend to get 24GB GPU (RTX 3090) make sure you have at least 32GB RAM.</p>
 
-<h3 id="cpu-cooling">
-<a class="anchor" href="#cpu-cooling" aria-hidden="true"><span class="octicon octicon-link"></span></a>CPU Cooling</h3>
+<blockquote>
+  <p>Just buy the cheapest DDR4 RAM available out there with a clock frequency greater than 2400.</p>
+</blockquote>
+
+<h3 id="cooling">
+<a class="anchor" href="#cooling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cooling</h3>
+<p>You need to choose if you need to Liquid Cool or Air Cool. In would recommend that you Air cool your PC. Some Advantages</p>
+
+<ul>
+  <li>They do not leak</li>
+  <li>Easier to upgrade</li>
+  <li>Much Cheaper</li>
+</ul>
+
+<p>I needed a single GPU for my needs (games / deep learning experiments). At worst, I would use <code class="language-plaintext highlighter-rouge">2</code> GPUs.</p>
 
 <h3 id="nvme">
 <a class="anchor" href="#nvme" aria-hidden="true"><span class="octicon octicon-link"></span></a>NVMe</h3>
+<p>I needed hot storage for reading data quickly. NVMe SSDs are perfect for this. Some motherboards do not have this option. I went for the cheaper NVMe from <code class="language-plaintext highlighter-rouge">Crucial</code> instead of <code class="language-plaintext highlighter-rouge">Samsung</code>. There is minor difference in performance according to the benchmark tests.</p>
 
 <h3 id="gpu">
 <a class="anchor" href="#gpu" aria-hidden="true"><span class="octicon octicon-link"></span></a>GPU</h3>
 <p>Right now there is a <a href="https://hothardware.com/news/nvidia-posts-expanded-qa-following-geforce-rtx-3080-launch-fiasco">shortage of GPUs</a> in the Market. I decided to wait it out. The new <code class="language-plaintext highlighter-rouge">RTX 30xx</code> series is cheaper and faster than the <code class="language-plaintext highlighter-rouge">RTX 20xx</code> series. The downsides being that there might be issues / bugs in hardware as it not been tried and tested by users in the market.</p>
+
+<h3 id="power-supply">
+<a class="anchor" href="#power-supply" aria-hidden="true"><span class="octicon octicon-link"></span></a>Power Supply</h3>
+<p>PC PartPicker will help you with that based on the configuration you have chosen. Suppose my configuration required 600W. I would keep an extra headroom for another 100-150W (Making it a total of 750W).</p>
 
 <h3 id="storage--cabinet-and-other-parts">
 <a class="anchor" href="#storage--cabinet-and-other-parts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Storage / Cabinet and Other Parts</h3>
@@ -249,18 +265,7 @@ A: I wanted to build a PC that could be used for <code class="language-plaintext
   <li>Connect Keyboard, Monitor to the Motherboard</li>
 </ul>
 
-<p>Once you have connect everything so far, switch on the PSU and press the power button. If everything is setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Do not bend the <code class="language-plaintext highlighter-rouge">pin(s)</code> like I did.</p>
-
-<h2 id="mindfactory">
-<a class="anchor" href="#mindfactory" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mindfactory</h2>
-<p>I found Mindfactory to be the best in terms of the prices offered / customer service. I had an issue with my Motherboard (Completely my fault). They found out the root cause (Bent Pin) and replace it with a new one. Make sure that you also buy gold service level so that they can prioritise your order requests.</p>
-
-<p>Hacks:</p>
-<ul>
-  <li>Order after 00:00 hrs (Free shipping)</li>
-  <li>Order All parts together (Gold service - valid per invoice)</li>
-  <li>Check out their deals (Deals on a part that you are interested in?)</li>
-</ul>
+<p>Once you have connected everything so far, switch on the PSU and press the power button. If things are setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Try not bending the <code class="language-plaintext highlighter-rouge">pin(s)</code> like I did.</p>
 
 <h2 id="final-thoughts">
 <a class="anchor" href="#final-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final Thoughts</h2>
@@ -273,6 +278,7 @@ A: I wanted to build a PC that could be used for <code class="language-plaintext
   <li><a href="Tim%20Dettmers%20Blog">https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/</a></li>
   <li><a href="Build%20your%20deep%20learning%20box%20Fast%20AI%20thread">https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155</a></li>
   <li><a href="Mindfactory">https://www.mindfactory.de/</a></li>
+  <li><a href="https://www.userbenchmark.com/UserRun/34764324">My User Benchmarks</a></li>
 </ul>
 
   </div><!-- from https://github.com/utterance/utterances -->
