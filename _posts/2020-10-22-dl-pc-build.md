@@ -83,8 +83,8 @@ Once you have connected everything so far, switch on the PSU and press the power
 If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx `100-200€`). I sold my [Macbook Air](mresell.de) for `262€`.
 
 ## Links
-- [https://pcpartpicker.com/list/3WFqsX](My Build on PC Part Picker)
-- [https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/](Tim Dettmers Blog)
-- [https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155](Build your deep learning box Fast AI thread)
-- [https://www.mindfactory.de/](Mindfactory)
+- [My Build on PC Part Picker](https://pcpartpicker.com/list/3WFqsX)
+- [Tim Dettmers Blog](https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/)
+- [Build your deep learning box Fast AI thread](https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155)
+- [Mindfactory](https://www.mindfactory.de/)
 - [My User Benchmarks](https://www.userbenchmark.com/UserRun/34764324)
