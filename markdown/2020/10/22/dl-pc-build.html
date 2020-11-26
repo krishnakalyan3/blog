@@ -161,8 +161,8 @@ window.onload = wrap_img;
     </tr>
     <tr>
       <td>RAM</td>
-      <td>G.Skill Aegis 16 GB (2 x 8 GB) DDR4-3000 CL16 Memory</td>
-      <td style="text-align: right">45.80</td>
+      <td>G.Skill Aegis 16 GB (4 x 8 GB) DDR4-3000 CL16 Memory</td>
+      <td style="text-align: right">97.5</td>
     </tr>
     <tr>
       <td>Storage</td>
@@ -177,17 +177,17 @@ window.onload = wrap_img;
     <tr>
       <td>Gold Service</td>
       <td>Mindfactory</td>
-      <td style="text-align: right">4.90</td>
+      <td style="text-align: right">10</td>
     </tr>
     <tr>
       <td>GPU</td>
-      <td>RTX 30xx</td>
-      <td style="text-align: right">NA</td>
+      <td>8GB Gigabyte GeForce RTX 3070</td>
+      <td style="text-align: right">649</td>
     </tr>
     <tr>
       <td>Grand Total</td>
       <td> </td>
-      <td style="text-align: right">952.15</td>
+      <td style="text-align: right">1647.95</td>
     </tr>
   </tbody>
 </table>
@@ -196,15 +196,17 @@ window.onload = wrap_img;
 <a class="anchor" href="#motivation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Motivation</h2>
 <p>Q: Why would you build a PC when you can do everything on the Cloud?.</p>
 
-<p>A: I wanted to build a PC that could be used for <code class="language-plaintext highlighter-rouge">Deep Learning</code>. I also wanted to have complete control over hardware for upgradability. That’s what I want you to believe, the truth is that I want to play computer games ;).</p>
+<p>A: I wanted to build a PC that could be used for <code class="language-plaintext highlighter-rouge">Machine Learning</code>. I also wanted to have complete control over hardware for upgradability and predicatble hardware performance. That’s what I want you to believe, the truth is that I want to play computer games ;).</p>
 
 <h2 id="basic-setup">
 <a class="anchor" href="#basic-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic setup</h2>
-<p>Use PC PartPicker. This helps you to choose your parts wisely, if not you will be will warned that you are building a PC with <code class="language-plaintext highlighter-rouge">incompatible</code> parts.</p>
+<p>Use PC PartPicker. This helps you to choose your parts wisely, you will be will warned that you are building a PC with <code class="language-plaintext highlighter-rouge">incompatible</code> parts.</p>
 
 <h3 id="motherboard">
 <a class="anchor" href="#motherboard" aria-hidden="true"><span class="octicon octicon-link"></span></a>Motherboard</h3>
-<p>Choose your motherboard first. Make sure that it fits your requirements (You will need to decide if you want to go for an AMD or an Intel Motherboard). I needed a motherboard with atleast <code class="language-plaintext highlighter-rouge">4</code> RAM slots and atleast <code class="language-plaintext highlighter-rouge">2</code> PCIe lanes for GPUs. I got a great deal on Intel CPU and hence my current configuration. Just buy any decent motherboard in the market. There are lot of companies that sell motherboards that can be overclocked. You might not need it for deep learning.</p>
+<p>Choose your motherboard first. Make sure that it fits your requirements (You will need to decide if you want to go for an AMD or an Intel Motherboard). I needed a motherboard with atleast <code class="language-plaintext highlighter-rouge">4</code> RAM slots and atleast <code class="language-plaintext highlighter-rouge">2</code> PCIe lanes for GPUs.</p>
+
+<p>Just buy any decent motherboard in the market. There are lot of companies that sell motherboards that can be overclocked. You might not need it for deep learning.</p>
 
 <blockquote>
   <p>Deep Learning on an overclocked machine does not lead to performance improvements.</p>
@@ -212,7 +214,7 @@ window.onload = wrap_img;
 
 <h3 id="cpu">
 <a class="anchor" href="#cpu" aria-hidden="true"><span class="octicon octicon-link"></span></a>CPU</h3>
-<p>Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU <a href="https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html">core</a> instead of one per core). This is useful if you want to process data in parallel. Hence, I choose <code class="language-plaintext highlighter-rouge">Intel Core i9-9900</code>.</p>
+<p>Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU <a href="https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html">core</a> instead of one per core). This is useful if you want to process data in parallel. I also got a great deal on Intel CPU because I know someone working there.</p>
 
 <h3 id="ram">
 <a class="anchor" href="#ram" aria-hidden="true"><span class="octicon octicon-link"></span></a>RAM</h3>
@@ -240,7 +242,13 @@ window.onload = wrap_img;
 
 <h3 id="gpu">
 <a class="anchor" href="#gpu" aria-hidden="true"><span class="octicon octicon-link"></span></a>GPU</h3>
-<p>Right now there is a <a href="https://hothardware.com/news/nvidia-posts-expanded-qa-following-geforce-rtx-3080-launch-fiasco">shortage of GPUs</a> in the Market. I decided to wait it out. The new <code class="language-plaintext highlighter-rouge">RTX 30xx</code> series is cheaper and faster than the <code class="language-plaintext highlighter-rouge">RTX 20xx</code> series. The downsides being that there might be issues / bugs in hardware as it not been tried and tested by users in the market.</p>
+<p>Right now there is a <a href="https://hothardware.com/news/nvidia-posts-expanded-qa-following-geforce-rtx-3080-launch-fiasco">shortage of GPUs</a> in the Market. The new <code class="language-plaintext highlighter-rouge">RTX 30xx</code> series is cheaper and faster than the <code class="language-plaintext highlighter-rouge">RTX 20xx</code> series.</p>
+
+<p>I am currently testing <code class="language-plaintext highlighter-rouge">8GB Gigabyte GeForce RTX 3070</code>. I has <code class="language-plaintext highlighter-rouge">3</code> fans which keeps the GPU temprature manageable. Games run flawlesly. I have no complaints related to performance of my ML experiments.</p>
+
+<blockquote>
+  <p>Make sure you install your GPU in the first PCIe slot to get the best perfomance.</p>
+</blockquote>
 
 <h3 id="power-supply">
 <a class="anchor" href="#power-supply" aria-hidden="true"><span class="octicon octicon-link"></span></a>Power Supply</h3>
@@ -260,6 +268,7 @@ window.onload = wrap_img;
   <li>Install NVMe</li>
   <li>Install CPU</li>
   <li>Install Cooler</li>
+  <li>Install GPU</li>
   <li>Connect PSU to the Motherboard</li>
   <li>Connect Cabinet Power to the Motherboard</li>
   <li>Connect Keyboard, Monitor to the Motherboard</li>
@@ -269,7 +278,7 @@ window.onload = wrap_img;
 
 <h2 id="final-thoughts">
 <a class="anchor" href="#final-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final Thoughts</h2>
-<p>If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx <code class="language-plaintext highlighter-rouge">100-200€</code>). I sold my <a href="mresell.de">Macbook Air</a> for <code class="language-plaintext highlighter-rouge">262€</code>.</p>
+<p>If you are doing this for the first time make sure you have a friend who has already done this. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx <code class="language-plaintext highlighter-rouge">100-200€</code>). I sold my <a href="mresell.de">Macbook Air</a> for <code class="language-plaintext highlighter-rouge">262€</code>.</p>
 
 <h2 id="links">
 <a class="anchor" href="#links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h2>
@@ -278,7 +287,6 @@ window.onload = wrap_img;
   <li><a href="https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/">Tim Dettmers Blog</a></li>
   <li><a href="https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155">Build your deep learning box Fast AI thread</a></li>
   <li><a href="https://www.mindfactory.de/">Mindfactory</a></li>
-  <li><a href="https://www.userbenchmark.com/UserRun/34764324">My User Benchmarks</a></li>
 </ul>
 
   </div><!-- from https://github.com/utterance/utterances -->

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-11-26T16:31:23-06:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><entry><title type="html">System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-11-26T16:32:01-06:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><entry><title type="html">System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;/h2&gt;
 &lt;p&gt;Before you begin installing 2 USB sticks. They will be used for creating bootable USB disks for Ubuntu and Windows.&lt;/p&gt;
 
 &lt;h3 id=&quot;bios&quot;&gt;BIOS&lt;/h3&gt;
@@ -58,8 +58,8 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;RAM&lt;/td&gt;
-      &lt;td&gt;G.Skill Aegis 16 GB (2 x 8 GB) DDR4-3000 CL16 Memory&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;45.80&lt;/td&gt;
+      &lt;td&gt;G.Skill Aegis 16 GB (4 x 8 GB) DDR4-3000 CL16 Memory&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;97.5&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Storage&lt;/td&gt;
@@ -74,17 +74,17 @@
     &lt;tr&gt;
       &lt;td&gt;Gold Service&lt;/td&gt;
       &lt;td&gt;Mindfactory&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;4.90&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;10&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;GPU&lt;/td&gt;
-      &lt;td&gt;RTX 30xx&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;NA&lt;/td&gt;
+      &lt;td&gt;8GB Gigabyte GeForce RTX 3070&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;649&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Grand Total&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;952.15&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1647.95&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -92,20 +92,22 @@
 &lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Q: Why would you build a PC when you can do everything on the Cloud?.&lt;/p&gt;
 
-&lt;p&gt;A: I wanted to build a PC that could be used for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Deep Learning&lt;/code&gt;. I also wanted to have complete control over hardware for upgradability. That’s what I want you to believe, the truth is that I want to play computer games ;).&lt;/p&gt;
+&lt;p&gt;A: I wanted to build a PC that could be used for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Machine Learning&lt;/code&gt;. I also wanted to have complete control over hardware for upgradability and predicatble hardware performance. That’s what I want you to believe, the truth is that I want to play computer games ;).&lt;/p&gt;
 
 &lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
-&lt;p&gt;Use PC PartPicker. This helps you to choose your parts wisely, if not you will be will warned that you are building a PC with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;incompatible&lt;/code&gt; parts.&lt;/p&gt;
+&lt;p&gt;Use PC PartPicker. This helps you to choose your parts wisely, you will be will warned that you are building a PC with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;incompatible&lt;/code&gt; parts.&lt;/p&gt;
 
 &lt;h3 id=&quot;motherboard&quot;&gt;Motherboard&lt;/h3&gt;
-&lt;p&gt;Choose your motherboard first. Make sure that it fits your requirements (You will need to decide if you want to go for an AMD or an Intel Motherboard). I needed a motherboard with atleast &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; RAM slots and atleast &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; PCIe lanes for GPUs. I got a great deal on Intel CPU and hence my current configuration. Just buy any decent motherboard in the market. There are lot of companies that sell motherboards that can be overclocked. You might not need it for deep learning.&lt;/p&gt;
+&lt;p&gt;Choose your motherboard first. Make sure that it fits your requirements (You will need to decide if you want to go for an AMD or an Intel Motherboard). I needed a motherboard with atleast &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; RAM slots and atleast &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; PCIe lanes for GPUs.&lt;/p&gt;
+
+&lt;p&gt;Just buy any decent motherboard in the market. There are lot of companies that sell motherboards that can be overclocked. You might not need it for deep learning.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Deep Learning on an overclocked machine does not lead to performance improvements.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;cpu&quot;&gt;CPU&lt;/h3&gt;
-&lt;p&gt;Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU &lt;a href=&quot;https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html&quot;&gt;core&lt;/a&gt; instead of one per core). This is useful if you want to process data in parallel. Hence, I choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Intel Core i9-9900&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Intel CPU i9 comes with hyperthreading. (Basically two threads per CPU &lt;a href=&quot;https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html&quot;&gt;core&lt;/a&gt; instead of one per core). This is useful if you want to process data in parallel. I also got a great deal on Intel CPU because I know someone working there.&lt;/p&gt;
 
 &lt;h3 id=&quot;ram&quot;&gt;RAM&lt;/h3&gt;
 &lt;p&gt;I choose 16 GB RAM begin with. I intend to expand to 32GB later. That’s the reason why I needed a Motherboard with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; RAM slots. Incase you intend to get 24GB GPU (RTX 3090) make sure you have at least 32GB RAM.&lt;/p&gt;
@@ -129,7 +131,13 @@
 &lt;p&gt;I needed hot storage for reading data quickly. NVMe SSDs are perfect for this. Some motherboards do not have this option. I went for the cheaper NVMe from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Crucial&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Samsung&lt;/code&gt;. There is minor difference in performance according to the benchmark tests.&lt;/p&gt;
 
 &lt;h3 id=&quot;gpu&quot;&gt;GPU&lt;/h3&gt;
-&lt;p&gt;Right now there is a &lt;a href=&quot;https://hothardware.com/news/nvidia-posts-expanded-qa-following-geforce-rtx-3080-launch-fiasco&quot;&gt;shortage of GPUs&lt;/a&gt; in the Market. I decided to wait it out. The new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RTX 30xx&lt;/code&gt; series is cheaper and faster than the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RTX 20xx&lt;/code&gt; series. The downsides being that there might be issues / bugs in hardware as it not been tried and tested by users in the market.&lt;/p&gt;
+&lt;p&gt;Right now there is a &lt;a href=&quot;https://hothardware.com/news/nvidia-posts-expanded-qa-following-geforce-rtx-3080-launch-fiasco&quot;&gt;shortage of GPUs&lt;/a&gt; in the Market. The new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RTX 30xx&lt;/code&gt; series is cheaper and faster than the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RTX 20xx&lt;/code&gt; series.&lt;/p&gt;
+
+&lt;p&gt;I am currently testing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8GB Gigabyte GeForce RTX 3070&lt;/code&gt;. I has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt; fans which keeps the GPU temprature manageable. Games run flawlesly. I have no complaints related to performance of my ML experiments.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Make sure you install your GPU in the first PCIe slot to get the best perfomance.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;power-supply&quot;&gt;Power Supply&lt;/h3&gt;
 &lt;p&gt;PC PartPicker will help you with that based on the configuration you have chosen. Suppose my configuration required 600W. I would keep an extra headroom for another 100-150W (Making it a total of 750W).&lt;/p&gt;
@@ -146,6 +154,7 @@
   &lt;li&gt;Install NVMe&lt;/li&gt;
   &lt;li&gt;Install CPU&lt;/li&gt;
   &lt;li&gt;Install Cooler&lt;/li&gt;
+  &lt;li&gt;Install GPU&lt;/li&gt;
   &lt;li&gt;Connect PSU to the Motherboard&lt;/li&gt;
   &lt;li&gt;Connect Cabinet Power to the Motherboard&lt;/li&gt;
   &lt;li&gt;Connect Keyboard, Monitor to the Motherboard&lt;/li&gt;
@@ -154,7 +163,7 @@
 &lt;p&gt;Once you have connected everything so far, switch on the PSU and press the power button. If things are setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Try not bending the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pin(s)&lt;/code&gt; like I did.&lt;/p&gt;
 
 &lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
-&lt;p&gt;If you are doing this for the first time make sure you have a friend who has already done this. Incase you are doing this alone make sure that you prepared to invest the time and the patience to figure out why things are not working. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100-200€&lt;/code&gt;). I sold my &lt;a href=&quot;mresell.de&quot;&gt;Macbook Air&lt;/a&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;262€&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you are doing this for the first time make sure you have a friend who has already done this. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100-200€&lt;/code&gt;). I sold my &lt;a href=&quot;mresell.de&quot;&gt;Macbook Air&lt;/a&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;262€&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
@@ -162,5 +171,4 @@
   &lt;li&gt;&lt;a href=&quot;https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/&quot;&gt;Tim Dettmers Blog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://forums.fast.ai/t/build-your-deep-learning-box-wiki-thread/13536/155&quot;&gt;Build your deep learning box Fast AI thread&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.mindfactory.de/&quot;&gt;Mindfactory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.userbenchmark.com/UserRun/34764324&quot;&gt;My User Benchmarks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">Hardware Since I live in Germany, I bought all my parts from Mindfactory. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: It might be easier that you think)</summary></entry></feed>
