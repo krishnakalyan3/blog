@@ -1,30 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-11-26T16:47:18-06:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><entry><title type="html">System Setup</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html" rel="alternate" type="text/html" title="System Setup" /><published>2020-10-26T00:00:00-05:00</published><updated>2020-10-26T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/26/dl-os-install.html">&lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;/h2&gt;
-&lt;p&gt;Before you begin installing 2 USB sticks. They will be used for creating bootable USB disks for Ubuntu and Windows.&lt;/p&gt;
-
-&lt;h3 id=&quot;bios&quot;&gt;BIOS&lt;/h3&gt;
-
-&lt;h3 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h3&gt;
-
-&lt;h3 id=&quot;windows&quot;&gt;Windows&lt;/h3&gt;
-&lt;p&gt;You can download Windows 10 ISO from &lt;a href=&quot;https://www.microsoft.com/de-de/software-download/windows10&quot;&gt;here&lt;/a&gt;. Incase you do &lt;a href=&quot;https://www.howtogeek.com/244678/you-dont-need-a-product-key-to-install-and-use-windows-10/&quot;&gt;not have a product key it not end of the world&lt;/a&gt;. You will need to pay extra for a copy of Windows.&lt;/p&gt;
-
-&lt;h2 id=&quot;benchmarking&quot;&gt;Benchmarking&lt;/h2&gt;
-&lt;p&gt;By downloading this software you can check&lt;/p&gt;
-
-&lt;h2 id=&quot;mindfactory&quot;&gt;Mindfactory&lt;/h2&gt;
-&lt;p&gt;I found Mindfactory to be the best in terms of the prices offered / customer service. I had an issue with my Motherboard (Completely my fault). They found out the root cause (Bent Pin) and replace it with a new one. Make sure that you also buy gold service level so that they can prioritise your order requests.&lt;/p&gt;
-
-&lt;p&gt;Hacks:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Order after 00:00 hrs (Free shipping)&lt;/li&gt;
-  &lt;li&gt;Order All parts together (Gold service - valid per invoice)&lt;/li&gt;
-  &lt;li&gt;Check out their deals (Deals on a part that you are interested in?)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.userbenchmark.com/UserRun/34764324&quot;&gt;My User Benchmarks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">Operating System Before you begin installing 2 USB sticks. They will be used for creating bootable USB disks for Ubuntu and Windows.</summary></entry><entry><title type="html">Building a PC for Deep Learning</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html" rel="alternate" type="text/html" title="Building a PC for Deep Learning" /><published>2020-10-22T00:00:00-05:00</published><updated>2020-10-22T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html">&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://krishnakalyan3.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krishnakalyan3.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-11-26T16:50:38-06:00</updated><id>https://krishnakalyan3.github.io/blog/feed.xml</id><title type="html">LatentTendencies</title><entry><title type="html">Building a PC for Deep Learning</title><link href="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html" rel="alternate" type="text/html" title="Building a PC for Deep Learning" /><published>2020-10-22T00:00:00-05:00</published><updated>2020-10-22T00:00:00-05:00</updated><id>https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build</id><content type="html" xml:base="https://krishnakalyan3.github.io/blog/markdown/2020/10/22/dl-pc-build.html">&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
 &lt;p&gt;Since I live in Germany, I bought all my parts from Mindfactory. Building a PC for the first time can be overwhelming and a dauting task. (Spoiler: It might be easier that you think)&lt;/p&gt;
 
 &lt;table&gt;
