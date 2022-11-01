@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "Krishna Kalyan"
 image: kalyan.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: twitter
       text: Twitter
@@ -10,9 +10,27 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/krishnakalyan3/
-    - icon: github
-      text: Github
-      href: https://github.com/krishnakalyan3
+    - icon: envelope
+      text: Email
+      href: mailto:krishnakalyan3@gmail.com
+    - icon: file-pdf
+      text: Resume
+      href: https://github.com/krishnakalyan3/blog
 ---
 
-Hi, I am Krishna. I am interested in Machine Learning and Distributed Systems. I also am a committer for Apache SystemML, an amazing framework for machine learning on Apache Spark. I have a double Masters in Data Science from UPC (Spain) and University of Lyon (France).
+Hi, I am Krishna. I am interested in Machine Learning and Distributed Systems.
+
+### Education
+
+I have a double Masters in Data Science from [Polytechnic University of Catalonia](https://www.fib.upc.edu/en/studies/masters/master-innovation-and-research-informatics) and [University of Lyon](https://www.em-dmkm.eu/). 
+
+### Experience
+
+
+### Open Source Contributions
+- [PyTorch Benchmark](https://github.com/pytorch/benchmark/pull/17)
+- [torchaudio](https://github.com/pytorch/audio/issues?q=author%3Akrishnakalyan3+is%3Aclosed)
+- [PyTorch Lightning](https://github.com/Lightning-AI/lightning/pulls?q=is%3Apr+author%3Akrishnakalyan3+is%3Aclosed)
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+is%3Aclosed+author%3Akrishnakalyan3)
+- [Apache Spark](https://github.com/apache/spark/pulls?q=is%3Apr+is%3Aclosed+author%3Akrishnakalyan3)
+- [Apache SystemML - GSoC 2017](https://github.com/krishnakalyan3/krishnakalyan3.github.io/blob/master/work_product.md)

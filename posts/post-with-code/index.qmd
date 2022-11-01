@@ -1,13 +1,12 @@
 ---
 title: "Building your own Deep Learning Workstation"
-author: "Krishna Kalyan"
 date: "2020-10-22"
 categories: [machine-learning, hardware, deeplearning]
 image: "pc.jpeg"
 ---
 
 ## Hardware
-Since I live in Germany, I bought all my parts from Mindfactory. Building a PC for the first time can be overwhelming and a daunting task. (Spoiler: It might be easier that you think)
+I live in Germany. All my parts were purchased from Mindfactory. Building a PC for the first time can be overwhelming and a daunting task. (Spoiler: It might be easier that you think)
 
 | Parts | Company | Price (Euros)
 --- | --- | ---:

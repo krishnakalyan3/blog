@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Krishna's Latent Tendencies",
     "section": "",
-    "text": "machine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\nKrishna Kalyan\n\n\n\n\n\n\nNo matching items"
+    "text": "machine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Krishna Kalyan",
     "section": "",
-    "text": "Hi, I am Krishna. I am interested in Machine Learning and Distributed Systems. I also am a committer for Apache SystemML, an amazing framework for machine learning on Apache Spark. I have a double Masters in Data Science from UPC (Spain) and University of Lyon (France)."
+    "text": "Education\nI have a double Masters in Data Science from Polytechnic University of Catalonia and University of Lyon.\n\n\nExperience\n\n\nOpen Source Contributions\n\nPyTorch Benchmark\ntorchaudio\nPyTorch Lightning\nscikit-learn\nApache Spark\nApache SystemML - GSoC 2017"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Building your own Deep Learning Workstation",
     "section": "",
-    "text": "Since I live in Germany, I bought all my parts from Mindfactory. Building a PC for the first time can be overwhelming and a daunting task. (Spoiler: It might be easier that you think)\n\n\n\nParts\nCompany\nPrice (Euros)\n\n\n\n\nMother Board\nGigabyte Z390 AORUS PRO\n170.81\n\n\nProcessor\nIntel Core i9-9900 3.1 GHz 8-Core Processor\n346.89\n\n\nCooler\nbe quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler\n67.22\n\n\nPSU\nbe quiet! Straight Power 11 750 W 80+ Gold\n115.85\n\n\nRAM\nG.Skill Aegis 16 GB (4 x 8 GB) DDR4-3000 CL16 Memory\n97.5\n\n\nStorage\nCrucial P1 1 TB M.2-2280 NVME Solid State Drive\n94.00\n\n\nCase\nbe quiet! Silent Base 601 ATX Mid Tower Case\n106.68\n\n\nGold Service\nMindfactory\n10\n\n\nGPU\n8GB Gigabyte GeForce RTX 3070\n649\n\n\nGrand Total\n\n1647.95"
+    "text": "I live in Germany. All my parts were purchased from Mindfactory. Building a PC for the first time can be overwhelming and a daunting task. (Spoiler: It might be easier that you think)\n\n\n\nParts\nCompany\nPrice (Euros)\n\n\n\n\nMother Board\nGigabyte Z390 AORUS PRO\n170.81\n\n\nProcessor\nIntel Core i9-9900 3.1 GHz 8-Core Processor\n346.89\n\n\nCooler\nbe quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler\n67.22\n\n\nPSU\nbe quiet! Straight Power 11 750 W 80+ Gold\n115.85\n\n\nRAM\nG.Skill Aegis 16 GB (4 x 8 GB) DDR4-3000 CL16 Memory\n97.5\n\n\nStorage\nCrucial P1 1 TB M.2-2280 NVME Solid State Drive\n94.00\n\n\nCase\nbe quiet! Silent Base 601 ATX Mid Tower Case\n106.68\n\n\nGold Service\nMindfactory\n10\n\n\nGPU\n8GB Gigabyte GeForce RTX 3070\n649\n\n\nGrand Total\n\n1647.95"
   },
   {
     "objectID": "posts/post-with-code/index.html#motivation",

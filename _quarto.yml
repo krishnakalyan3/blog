@@ -8,11 +8,13 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/AlbertRapp
+        href: https://github.com/krishnakalyan3/blog
 
 format:
   html:
-    theme: sketchy
+    theme:
+      light: sandstone
+      dark: darkly
     css: styles.css
 
 
