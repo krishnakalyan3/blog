@@ -8,10 +8,11 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/krishnakalyan3/blog
       - text: Talks
         href: "talks.html"
+      - icon: github
+        href: https://github.com/krishnakalyan3/blog
+      
 
 format:
   html:
