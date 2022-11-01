@@ -14,36 +14,36 @@
     "text": "Education\nI have a double Masters in Data Science from Polytechnic University of Catalonia and University of Lyon.\n\n\nExperience\n\n\nOpen Source Contributions\n\nPyTorch Benchmark\ntorchaudio\nPyTorch Lightning\nscikit-learn\nApache Spark\nApache SystemML - GSoC 2017"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "posts/deep-learning-pc/index.html",
+    "href": "posts/deep-learning-pc/index.html",
     "title": "Building your own Deep Learning Workstation",
     "section": "",
-    "text": "I live in Germany. All my parts were purchased from Mindfactory. Building a PC for the first time can be overwhelming and a daunting task. (Spoiler: It might be easier that you think)\n\n\n\nParts\nCompany\nPrice (Euros)\n\n\n\n\nMother Board\nGigabyte Z390 AORUS PRO\n170.81\n\n\nProcessor\nIntel Core i9-9900 3.1 GHz 8-Core Processor\n346.89\n\n\nCooler\nbe quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler\n67.22\n\n\nPSU\nbe quiet! Straight Power 11 750 W 80+ Gold\n115.85\n\n\nRAM\nG.Skill Aegis 16 GB (4 x 8 GB) DDR4-3000 CL16 Memory\n97.5\n\n\nStorage\nCrucial P1 1 TB M.2-2280 NVME Solid State Drive\n94.00\n\n\nCase\nbe quiet! Silent Base 601 ATX Mid Tower Case\n106.68\n\n\nGold Service\nMindfactory\n10\n\n\nGPU\n8GB Gigabyte GeForce RTX 3070\n649\n\n\nGrand Total\n\n1647.95"
+    "text": "I live in Germany. All my parts were purchased from Mindfactory. Building a PC for the first time can be overwhelming and a daunting task. Spoiler Alert: It might be easier that you think.\n\n\n\nParts\nCompany\nPrice (Euros)\n\n\n\n\nMother Board\nGigabyte Z390 AORUS PRO\n170.81\n\n\nProcessor\nIntel Core i9-9900 3.1 GHz 8-Core Processor\n346.89\n\n\nCooler\nbe quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler\n67.22\n\n\nPSU\nbe quiet! Straight Power 11 750 W 80+ Gold\n115.85\n\n\nRAM\nG.Skill Aegis 16 GB (4 x 8 GB) DDR4-3000 CL16 Memory\n97.5\n\n\nStorage\nCrucial P1 1 TB M.2-2280 NVME Solid State Drive\n94.00\n\n\nCase\nbe quiet! Silent Base 601 ATX Mid Tower Case\n106.68\n\n\nGold Service\nMindfactory\n10\n\n\nGPU\n8GB Gigabyte GeForce RTX 3070\n649\n\n\nGrand Total\n\n1647.95"
   },
   {
-    "objectID": "posts/post-with-code/index.html#motivation",
-    "href": "posts/post-with-code/index.html#motivation",
+    "objectID": "posts/deep-learning-pc/index.html#motivation",
+    "href": "posts/deep-learning-pc/index.html#motivation",
     "title": "Building your own Deep Learning Workstation",
     "section": "Motivation",
     "text": "Motivation\nI wanted to build a PC that could be used for Machine Learning. I also wanted to have complete control over hardware for upgradability and predictable hardware performance. That’s what I want you to believe, the truth is that I want to play computer games ;)."
   },
   {
-    "objectID": "posts/post-with-code/index.html#basic-setup",
-    "href": "posts/post-with-code/index.html#basic-setup",
+    "objectID": "posts/deep-learning-pc/index.html#basic-setup",
+    "href": "posts/deep-learning-pc/index.html#basic-setup",
     "title": "Building your own Deep Learning Workstation",
     "section": "Basic setup",
     "text": "Basic setup\nUse PC PartPicker. This helps you to choose your parts wisely, you will be will warned that you are building a PC with incompatible parts.\n\nMotherboard\nChoose your motherboard first. Make sure that it fits your requirements (You will need to decide if you want to go for an AMD or an Intel Motherboard). I needed a motherboard with atleast 4 RAM slots and atleast 2 PCIe lanes for GPUs.\nJust buy any decent motherboard in the market. There are lot of companies that sell motherboards that can be overclocked. You might not need it for deep learning.\n\nDeep Learning on an overclocked machine does not lead to performance improvements.\n\n\n\nCPU\nIntel CPU i9 comes with hyperthreading. (Basically two threads per CPU core instead of one per core). This is useful if you want to process data in parallel. I also got a great deal on Intel CPU because I know someone working there.\n\n\nRAM\nI choose 16 GB RAM begin with. I intend to expand to 32GB later. That’s the reason why I needed a Motherboard with 4 RAM slots. Incase you intend to get 24GB GPU (RTX 3090) make sure you have at least 32GB RAM.\n\nJust buy the cheapest DDR4 RAM available out there with a clock frequency greater than 2400.\n\n\n\nCooling\nYou need to choose if you need to Liquid Cool or Air Cool. In would recommend that you Air cool your PC. Some Advantages\n\nThey do not leak\nEasier to upgrade\nMuch Cheaper\n\nI needed a single GPU for my needs (games / deep learning experiments). At worst, I would use 2 GPUs.\n\n\nNVMe\nI needed hot storage for reading data quickly. NVMe SSDs are perfect for this. Some motherboards do not have this option. I went for the cheaper NVMe from Crucial instead of Samsung. There is minor difference in performance according to the benchmark tests.\n\n\nGPU\nRight now there is a shortage of GPUs in the Market. The new RTX 30xx series is cheaper and faster than the RTX 20xx series.\nI am currently testing 8GB Gigabyte GeForce RTX 3070. I has 3 fans which keeps the GPU temprature manageable. Games run flawlesly. I have no complaints related to performance of my ML experiments.\n\nMake sure you install your GPU in the first PCIe slot to get the best perfomance.\n\n\n\nPower Supply\nPC PartPicker will help you with that based on the configuration you have chosen. Suppose my configuration required 600W. I would keep an extra headroom for another 100-150W (Making it a total of 750W).\n\n\nStorage / Cabinet and Other Parts\nMake sure you already have an External Monitor, Mouse, Keyboard. You might also need to buy a good power strip for powering up your monitors and PSU. Keep screwdrivers handy.\n\n\nAssembling\nI would first check if all parts are working before installing the part to the Cabinet. This way you can check for defects and order replacements quickly if required.\n\nMotherboard lies on its box\nInstall RAM\nInstall NVMe\nInstall CPU\nInstall Cooler\nInstall GPU\nConnect PSU to the Motherboard\nConnect Cabinet Power to the Motherboard\nConnect Keyboard, Monitor to the Motherboard\n\nOnce you have connected everything so far, switch on the PSU and press the power button. If things are setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Try not bending the pin(s) like I did."
   },
   {
-    "objectID": "posts/post-with-code/index.html#final-thoughts",
-    "href": "posts/post-with-code/index.html#final-thoughts",
+    "objectID": "posts/deep-learning-pc/index.html#final-thoughts",
+    "href": "posts/deep-learning-pc/index.html#final-thoughts",
     "title": "Building your own Deep Learning Workstation",
     "section": "Final Thoughts",
     "text": "Final Thoughts\nIf you are doing this for the first time make sure you have a friend who has already done this. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx 100-200€). I sold my Macbook Air for 262€."
   },
   {
-    "objectID": "posts/post-with-code/index.html#links",
-    "href": "posts/post-with-code/index.html#links",
+    "objectID": "posts/deep-learning-pc/index.html#links",
+    "href": "posts/deep-learning-pc/index.html#links",
     "title": "Building your own Deep Learning Workstation",
     "section": "Links",
     "text": "Links\n\nMy Build on PC Part Picker\nTim Dettmers Blog\nBuild your deep learning box Fast AI thread\nMindfactory"

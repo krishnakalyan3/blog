@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Latent Tendencies"
+  google-analytics: "G-2MBKRDEPBV"
   navbar:
     right:
       - about.qmd
