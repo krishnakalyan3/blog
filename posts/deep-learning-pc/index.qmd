@@ -83,7 +83,7 @@ I would first check if all parts are working before installing the part to the C
 Once you have connected everything so far, switch on the PSU and press the power button. If things are setup correctly, you will see a BIOS screen and Congratulations!. Now all you need to do is to move everything into the cabinet. Be gentle / accurate while plugging in different components, Try not bending the `pin(s)` like I did.
 
 ## Final Thoughts
-If you are doing this for the first time make sure you have a friend who has already done this. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx `100-200€`). I sold my [Macbook Air](mresell.de) for `262€`.
+If you are doing this for the first time make sure you have a friend who has already done this. Be prepared to spend at least half a day if you have everything right. You can save yourself the pain of assembling by requesting Mindfactory or your local PC store will do it for you (Approx `100-200€`). I also sold my [Macbook Air](mresell.de) for `262€`.
 
 ## Links
 - [My Build on PC Part Picker](https://pcpartpicker.com/list/3WFqsX)
