@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Krishna's Latent Tendencies"
+  title: "Latent Tendencies"
   navbar:
     right:
       - about.qmd
