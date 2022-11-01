@@ -7,6 +7,8 @@ website:
   navbar:
     right:
       - about.qmd
+      - projects.qmd
+      - talks.qmd
 
 format:
   html:
