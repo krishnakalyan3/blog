@@ -16,9 +16,7 @@ website:
 
 format:
   html:
-    theme:
-      light: sandstone
-      dark: darkly
+    theme: cyborg
     css: styles.css
 
 

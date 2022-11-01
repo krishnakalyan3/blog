@@ -18,7 +18,7 @@ about:
       href: https://github.com/krishnakalyan3/blog
 ---
 
-Hi, I am Krishna. I am interested in Machine Learning and Distributed Systems.
+Hi, thanks for dropping by. When I am not spending my time understanding `Distributed System` or `Latent Spaces`, I teach Yoga or play acoustic guitar (I own a Fender Newporter).
 
 ### Education
 
