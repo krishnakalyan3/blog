@@ -7,8 +7,8 @@ website:
   navbar:
     right:
       - about.qmd
-      - projects.qmd
-      - talks.qmd
+      - icon: github
+        href: https://github.com/AlbertRapp
 
 format:
   html:

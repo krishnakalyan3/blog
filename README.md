@@ -1,0 +1,4 @@
+```
+quarto render
+quarto publish
+```
