@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Krishna's Latent Tendencies"
+  navbar:
+    right:
+      - about.qmd
+
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+
+
+

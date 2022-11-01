@@ -1,0 +1,18 @@
+---
+title: "About"
+image: kalyan.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/krishnakalyan3
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/krishnakalyan3/
+    - icon: github
+      text: Github
+      href: https://github.com/krishnakalyan3
+---
+
+Hi, I am Krishna. I am interested in Machine Learning and Distributed Systems. I also am a committer for Apache SystemML, an amazing framework for machine learning on Apache Spark. I have a double Masters in Data Science from UPC (Spain) and University of Lyon (France).
