@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2020-10-22">
 
-<title>Latent Tendencies - Mambaforge made easy</title>
+<title>Latent Tendencies - Faster Setup with Mambaforge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,7 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Mambaforge made easy</h1>
+      <h1 class="title">Faster Setup with Mambaforge</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">machine-learning</div>
                 <div class="quarto-category">conda</div>
@@ -144,7 +144,7 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 
 
 
-<p>Creating a good machine learning environment is often glossed over when working on a new python project. I would like to share how I manage and maintain my <code>Python</code> environment.</p>
+<p>Creating a good repeatable machine learning environment is often glossed over when working on a new python project. I would like to share how I manage and maintain my <code>Python</code> environment.</p>
 <section id="mambaforge" class="level2">
 <h2 class="anchored" data-anchor-id="mambaforge">Mambaforge</h2>
 <p>Mambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. <a href="https://github.com/conda-forge/miniforge#mambaforge">Mamba</a> is a replacement for Conda. It’s written in C++ for faster execution. Even on a M1 mac it can be a great <a href="https://www.coiled.io/blog/apple-arm64-mambaforge">choice</a>.</p>
@@ -172,11 +172,7 @@ Options:
 <p>Simply use the commands below create a new environment called <code>my_env</code> with <code>python 3.9</code> interpreter.</p>
 <pre><code>conda create -n my_env python=3.9
 conda activate my_env</code></pre>
-<p>Use <code>pip install</code> or <code>conda install</code> to install the package of your choice to your environment.</p>
-</section>
-<section id="useful-commands" class="level2">
-<h2 class="anchored" data-anchor-id="useful-commands">Useful Commands</h2>
-<p>Other than the commands mentioned above you may find these commands below useful.</p>
+<p>Use <code>pip install</code> or <code>conda install</code> to install the package of your choice to your environment. ## Useful Commands Other than the commands mentioned above you may find these commands below useful.</p>
 <pre><code># All conda env created
 conda env list
 # All packages in current conda env
