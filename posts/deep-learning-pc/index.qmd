@@ -2,7 +2,7 @@
 title: "Building your own Deep Learning Workstation"
 date: "2020-10-22"
 categories: [machine-learning, hardware, deeplearning]
-image: "pc.jpeg"
+image: "cover.jpeg"
 ---
 
 ## Hardware

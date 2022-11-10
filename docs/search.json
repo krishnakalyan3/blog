@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Latent Tendencies",
     "section": "",
-    "text": "machine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
+    "text": "machine-learning\n\n\nconda\n\n\nmamba\n\n\nenvironment\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -47,5 +47,47 @@
     "title": "Building your own Deep Learning Workstation",
     "section": "Links",
     "text": "Links\n\nMy Build on PC Part Picker\nTim Dettmers Blog\nBuild your deep learning box Fast AI thread\nMindfactory"
+  },
+  {
+    "objectID": "posts/ml-environment/my-env.html",
+    "href": "posts/ml-environment/my-env.html",
+    "title": "Mambaforge made easy",
+    "section": "",
+    "text": "Creating a good machine learning environment is often glossed over when working on a new python project. I would like to share how I manage and maintain my Python environment."
+  },
+  {
+    "objectID": "posts/ml-environment/my-env.html#mambaforge",
+    "href": "posts/ml-environment/my-env.html#mambaforge",
+    "title": "Mambaforge made easy",
+    "section": "Mambaforge",
+    "text": "Mambaforge\nMambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. Mamba is a replacement for Conda. It’s written in C++ for faster execution. Even on a M1 mac it can be a great choice.\nAnaconda has also recently changed its TOS and it’s not too clear how this affects me."
+  },
+  {
+    "objectID": "posts/ml-environment/my-env.html#installation",
+    "href": "posts/ml-environment/my-env.html#installation",
+    "title": "Mambaforge made easy",
+    "section": "Installation",
+    "text": "Installation\nYou can install the latest version of Mambaforge by running the commands below or using this script.\nwget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh\nbash Mambaforge-Linux-x86_64.sh -b\n~/mambaforge/bin/mamba init\nExit your current shell session and start another one. Type the command conda --help to check that conda environment variables are correctly set.\nusage: conda [-h] [-V] command ...\n\nconda is a tool for managing and deploying applications, environments and packages.\n\nOptions:\n…\nYou will observe that conda config --show channels conda-forge is set as the default channel.\nchannels:\n  - conda-forge"
+  },
+  {
+    "objectID": "posts/ml-environment/my-env.html#creating-a-new-environment",
+    "href": "posts/ml-environment/my-env.html#creating-a-new-environment",
+    "title": "Mambaforge made easy",
+    "section": "Creating a New Environment",
+    "text": "Creating a New Environment\nSimply use the commands below create a new environment called my_env with python 3.9 interpreter.\nconda create -n my_env python=3.9\nconda activate my_env\nUse pip install or conda install to install the package of your choice to your environment."
+  },
+  {
+    "objectID": "posts/ml-environment/my-env.html#useful-commands",
+    "href": "posts/ml-environment/my-env.html#useful-commands",
+    "title": "Mambaforge made easy",
+    "section": "Useful Commands",
+    "text": "Useful Commands\nOther than the commands mentioned above you may find these commands below useful.\n# All conda env created\nconda env list\n# All packages in current conda env\nconda list\n# System information\nconda info"
+  },
+  {
+    "objectID": "posts/ml-environment/my-env.html#links",
+    "href": "posts/ml-environment/my-env.html#links",
+    "title": "Mambaforge made easy",
+    "section": "Links",
+    "text": "Links\n\nFastAI Setup\nMy Script\nMambaforge"
   }
 ]

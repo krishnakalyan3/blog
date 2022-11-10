@@ -1,0 +1,66 @@
+---
+title: "Faster Setup with Mambaforge"
+date: "2020-10-22"
+categories: [machine-learning, conda, mamba, environment]
+image: "cover.jpg"
+execute:
+  echo: false
+---
+
+Creating a good repeatable machine learning environment is often glossed over when working on a new python project. I would like to share how I manage and maintain my `Python` environment.
+
+## Mambaforge
+Mambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. [Mamba](https://github.com/conda-forge/miniforge#mambaforge) is a replacement for Conda. It's written in C++ for faster execution. Even on a M1 mac it can be a great [choice](https://www.coiled.io/blog/apple-arm64-mambaforge).
+
+Anaconda has also recently changed its [TOS](https://www.anaconda.com/blog/anaconda-commercial-edition-faq) and it's not too clear how this affects me.
+
+## Installation
+You can install the latest version of Mambaforge by running the commands below or using this [script](https://github.com/krishnakalyan3/Scripts/blob/master/2022_setup/mambaforge.txt). 
+
+```
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+bash Mambaforge-Linux-x86_64.sh -b
+~/mambaforge/bin/mamba init
+```
+Exit your current shell session and start another one. Type the command `conda --help` to check that conda environment variables are correctly set.
+
+```
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+…
+```
+
+You will observe that `conda config --show channels`  conda-forge is set as the default channel.
+
+```
+channels:
+  - conda-forge
+```
+
+## Creating a New Environment
+Simply use the commands below create a new environment called `my_env` with `python 3.9` interpreter.
+
+```
+conda create -n my_env python=3.9
+conda activate my_env
+```
+Use `pip install` or `conda install` to install the package of your choice to your environment. 
+## Useful Commands
+Other than the commands mentioned above you may find these commands below useful.
+
+```
+# All conda env created
+conda env list
+# All packages in current conda env
+conda list
+# System information
+conda info
+```
+
+## Links
+- [FastAI Setup](https://github.com/fastai/fastsetup/blob/master/setup-conda.sh)
+- [My Script](https://github.com/krishnakalyan3/Scripts/blob/master/2022_setup/mambaforge.txt)
+- [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge)

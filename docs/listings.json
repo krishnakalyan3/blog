@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/ml-environment/my-env.html",
       "/posts/deep-learning-pc/index.html"
     ]
   }
