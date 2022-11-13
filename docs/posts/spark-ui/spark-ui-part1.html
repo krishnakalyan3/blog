@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2020-10-22">
+<meta name="dcterms.date" content="2020-11-12">
 
-<title>Latent Tendencies - Faster Setup with Mambaforge</title>
+<title>Latent Tendencies - Introduction to Spark UI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,12 +110,11 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Faster Setup with Mambaforge</h1>
+      <h1 class="title">Introduction to Spark UI</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">machine-learning</div>
-                <div class="quarto-category">conda</div>
-                <div class="quarto-category">mamba</div>
-                <div class="quarto-category">environment</div>
+                <div class="quarto-category">data-engineering</div>
+                <div class="quarto-category">apache-spark</div>
+                <div class="quarto-category">performance</div>
               </div>
                   </div>
   </div>
@@ -127,7 +126,7 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 22, 2020</p>
+        <p class="date">November 12, 2020</p>
       </div>
     </div>
       
@@ -144,48 +143,53 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 
 
 
-<p>Creating a good repeatable machine learning environment is often glossed over when working on a new python project. I would like to share how I manage and maintain my <code>Python</code> environment.</p>
-<section id="mambaforge" class="level2">
-<h2 class="anchored" data-anchor-id="mambaforge">Mambaforge</h2>
-<p>Mambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. <a href="https://github.com/conda-forge/miniforge#mambaforge">Mamba</a> is a replacement for Conda. It’s written in C++ for faster execution. Even on a M1 mac it can be a great <a href="https://www.coiled.io/blog/apple-arm64-mambaforge">choice</a>.</p>
-<p>Anaconda has also recently changed its <a href="https://www.anaconda.com/blog/anaconda-commercial-edition-faq">TOS</a> and it’s not too clear how this affects us. Sticking to mamba would be a better choice according to me.</p>
-</section>
-<section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<p>You can install the latest version of Mambaforge by running the commands below or using this <a href="https://github.com/krishnakalyan3/Scripts/blob/master/2022_setup/mambaforge.txt">script</a>.</p>
-<pre><code>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
-bash Mambaforge-Linux-x86_64.sh -b
-~/mambaforge/bin/mamba init</code></pre>
-<p>Exit your current shell session and start another one. Type the command <code>conda --help</code> to check that conda environment variables are correctly set.</p>
-<pre><code>usage: conda [-h] [-V] command ...
+<p>Debugging <code>Spark</code> jobs can be quite hard. Spark UI is one of the most important tools you have at your disposal to quickly investigate the issue you face at the moment. Lets begin by installing <code>Apache Spark</code> from <a href="https://spark.apache.org/downloads.html">binaries</a>. The latest version of <code>Apache Spark</code> at the time of writing this blog is <code>3.2.2</code>.</p>
+<section id="environment" class="level2">
+<h2 class="anchored" data-anchor-id="environment">Environment</h2>
+<p>To prepare our environment let install - <code>Python 3.9</code> - <code>Java 11 Zulu</code></p>
+<pre><code>curl -s "https://get.sdkman.io" | bash
+sdk list java
+sdk install java 11.0.17-zulu</code></pre>
+<p>After installing the prerequisite software, Let’s start a standalone cluster. In addition there are other ways of deploying a spark cluster which we will not be covering - Mesos - Yarn - Kubernetes</p>
+<pre><code># Download the latest spark binaries
+tar -xvzf spark-3.2.2-bin-hadoop3.2.tgz
+cd spark-3.2.2-bin-hadoop3.2/sbin
+./start-master.sh
+# Open another tab in the browser to check localhost:8080 works
+# Copy URL, In my case its spark://Sais-Air:7077
 
-conda is a tool for managing and deploying applications, environments and packages.
-
-Options:
-…</code></pre>
-<p>You will observe that <code>conda config --show channels</code> conda-forge is set as the default channel.</p>
-<pre><code>channels:
-  - conda-forge</code></pre>
-</section>
-<section id="creating-a-new-environment" class="level2">
-<h2 class="anchored" data-anchor-id="creating-a-new-environment">Creating a New Environment</h2>
-<p>Simply use the commands below create a new environment called <code>my_env</code> with <code>python 3.9</code> interpreter.</p>
-<pre><code>conda create -n my_env python=3.9
-conda activate my_env</code></pre>
-<p>Use <code>pip install</code> or <code>conda install</code> to install the package of your choice to your environment. ## Useful Commands Other than the commands mentioned above you may find these commands below useful.</p>
-<pre><code># All conda env created
-conda env list
-# All packages in current conda env
-conda list
-# System information
-conda info</code></pre>
+./start-worker.sh spark://Sais-Air:7077
+# On the same WebUI you will see a worker registered </code></pre>
+<p>Congratulations, You now have Master UI on <code>localhost:8080</code>. Let’s submit a test job to make sure everything works well.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="spark-new.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Spark Master Web UI</figcaption><p></p>
+</figure>
+</div>
+<pre><code>./bin/spark-submit \
+--class org.apache.spark.examples.SparkPi \
+--master spark://Sais-Air:7077 \
+examples/jars/*-examples_*.jar \
+1000</code></pre>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I am on java 17.0.5-zulu. Hence have to pass extra <code>--driver-java-options</code> to fix the error <code>cannot access class sun.nio.ch.DirectBuffer</code>. <a href="https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct">StackoverFlow</a></p>
+</div>
+</div>
 </section>
 <section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
+<h2 class="anchored" data-anchor-id="links">Links:</h2>
 <ul>
-<li><a href="https://github.com/fastai/fastsetup/blob/master/setup-conda.sh">FastAI Setup</a></li>
-<li><a href="https://github.com/krishnakalyan3/Scripts/blob/master/2022_setup/mambaforge.txt">My Script</a></li>
-<li><a href="https://github.com/conda-forge/miniforge#mambaforge">Mambaforge</a></li>
+<li><a href="https://sdkman.io/install">SdkMan</a></li>
 </ul>
 
 

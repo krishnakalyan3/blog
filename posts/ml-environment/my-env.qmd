@@ -12,7 +12,7 @@ Creating a good repeatable machine learning environment is often glossed over wh
 ## Mambaforge
 Mambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. [Mamba](https://github.com/conda-forge/miniforge#mambaforge) is a replacement for Conda. It's written in C++ for faster execution. Even on a M1 mac it can be a great [choice](https://www.coiled.io/blog/apple-arm64-mambaforge).
 
-Anaconda has also recently changed its [TOS](https://www.anaconda.com/blog/anaconda-commercial-edition-faq) and it's not too clear how this affects me.
+Anaconda has also recently changed its [TOS](https://www.anaconda.com/blog/anaconda-commercial-edition-faq) and it's not too clear how this affects us. Sticking to mamba would be a better choice according to me.
 
 ## Installation
 You can install the latest version of Mambaforge by running the commands below or using this [script](https://github.com/krishnakalyan3/Scripts/blob/master/2022_setup/mambaforge.txt). 

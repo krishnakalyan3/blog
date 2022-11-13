@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/spark-ui/spark-ui-part1.html",
       "/posts/ml-environment/my-env.html",
       "/posts/deep-learning-pc/index.html"
     ]

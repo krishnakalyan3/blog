@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Latent Tendencies",
     "section": "",
-    "text": "machine-learning\n\n\nconda\n\n\nmamba\n\n\nenvironment\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
+    "text": "data-engineering\n\n\napache-spark\n\n\nperformance\n\n\n\n\n\n\n\n\n\n\n\nNov 12, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nconda\n\n\nmamba\n\n\nenvironment\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -12,6 +12,27 @@
     "title": "Krishna Kalyan",
     "section": "",
     "text": "Education\nI have a double Masters in Data Science from Polytechnic University of Catalonia and University of Lyon.\n\n\nExperience\n\n\nOpen Source Contributions\n\nPyTorch Benchmark\ntorchaudio\nPyTorch Lightning\nscikit-learn\nApache Spark\nApache SystemML - GSoC 2017"
+  },
+  {
+    "objectID": "posts/spark-ui/spark-ui-part1.html",
+    "href": "posts/spark-ui/spark-ui-part1.html",
+    "title": "Introduction to Spark UI",
+    "section": "",
+    "text": "Debugging Spark jobs can be quite hard. Spark UI is one of the most important tools you have at your disposal to quickly investigate the issue you face at the moment. Lets begin by installing Apache Spark from binaries. The latest version of Apache Spark at the time of writing this blog is 3.2.2."
+  },
+  {
+    "objectID": "posts/spark-ui/spark-ui-part1.html#environment",
+    "href": "posts/spark-ui/spark-ui-part1.html#environment",
+    "title": "Introduction to Spark UI",
+    "section": "Environment",
+    "text": "Environment\nTo prepare our environment let install - Python 3.9 - Java 11 Zulu\ncurl -s \"https://get.sdkman.io\" | bash\nsdk list java\nsdk install java 11.0.17-zulu\nAfter installing the prerequisite software, Let’s start a standalone cluster. In addition there are other ways of deploying a spark cluster which we will not be covering - Mesos - Yarn - Kubernetes\n# Download the latest spark binaries\ntar -xvzf spark-3.2.2-bin-hadoop3.2.tgz\ncd spark-3.2.2-bin-hadoop3.2/sbin\n./start-master.sh\n# Open another tab in the browser to check localhost:8080 works\n# Copy URL, In my case its spark://Sais-Air:7077\n\n./start-worker.sh spark://Sais-Air:7077\n# On the same WebUI you will see a worker registered \nCongratulations, You now have Master UI on localhost:8080. Let’s submit a test job to make sure everything works well.\n\n\n\nSpark Master Web UI\n\n\n./bin/spark-submit \\\n--class org.apache.spark.examples.SparkPi \\\n--master spark://Sais-Air:7077 \\\nexamples/jars/*-examples_*.jar \\\n1000\n\n\n\n\n\n\nNote\n\n\n\nI am on java 17.0.5-zulu. Hence have to pass extra --driver-java-options to fix the error cannot access class sun.nio.ch.DirectBuffer. StackoverFlow"
+  },
+  {
+    "objectID": "posts/spark-ui/spark-ui-part1.html#links",
+    "href": "posts/spark-ui/spark-ui-part1.html#links",
+    "title": "Introduction to Spark UI",
+    "section": "Links:",
+    "text": "Links:\n\nSdkMan"
   },
   {
     "objectID": "posts/ml-environment/my-env.html",
@@ -25,7 +46,7 @@
     "href": "posts/ml-environment/my-env.html#mambaforge",
     "title": "Faster Setup with Mambaforge",
     "section": "Mambaforge",
-    "text": "Mambaforge\nMambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. Mamba is a replacement for Conda. It’s written in C++ for faster execution. Even on a M1 mac it can be a great choice.\nAnaconda has also recently changed its TOS and it’s not too clear how this affects me."
+    "text": "Mambaforge\nMambaforge is a minimal installer for conda that also includes mamba and is configured with conda-forge as the default and only channel. Anaconda or Conda is known for being slow when trying to resolve conflicts between dependencies and installing new packages. Mamba is a replacement for Conda. It’s written in C++ for faster execution. Even on a M1 mac it can be a great choice.\nAnaconda has also recently changed its TOS and it’s not too clear how this affects us. Sticking to mamba would be a better choice according to me."
   },
   {
     "objectID": "posts/ml-environment/my-env.html#installation",
