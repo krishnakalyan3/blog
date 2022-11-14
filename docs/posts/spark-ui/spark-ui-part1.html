@@ -146,7 +146,7 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 <p>Debugging <code>Spark</code> jobs can be quite hard. Spark UI is one of the most important tools you have at your disposal to quickly investigate the issue you face at the moment. Lets begin by installing <code>Apache Spark</code> from <a href="https://spark.apache.org/downloads.html">binaries</a>. The latest version of <code>Apache Spark</code> at the time of writing this blog is <code>3.2.2</code>.</p>
 <section id="environment" class="level2">
 <h2 class="anchored" data-anchor-id="environment">Environment</h2>
-<p>To prepare our environment let install - <code>Python 3.9</code> - <code>Java 11 Zulu</code></p>
+<p>To prepare our environment let install <code>Java 11 Zulu</code></p>
 <pre><code>curl -s "https://get.sdkman.io" | bash
 sdk list java
 sdk install java 11.0.17-zulu</code></pre>
@@ -160,7 +160,7 @@ cd spark-3.2.2-bin-hadoop3.2/sbin
 
 ./start-worker.sh spark://Sais-Air:7077
 # On the same WebUI you will see a worker registered </code></pre>
-<p>Congratulations, You now have Master UI on <code>localhost:8080</code>. Let’s submit a test job to make sure everything works well.</p>
+<p>Congratulations, You now have Master UI on <code>http://sais-air:8080/</code>. Let’s submit a test job to make sure everything works well.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="spark-new.png" class="img-fluid figure-img"></p>

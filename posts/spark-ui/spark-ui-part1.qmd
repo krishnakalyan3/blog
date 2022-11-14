@@ -8,9 +8,7 @@ image: "spark-logo-rev.svg"
 Debugging `Spark` jobs can be quite hard. Spark UI is one of the most important tools you have at your disposal to quickly investigate the issue you face at the moment. Lets begin by installing `Apache Spark` from [binaries](https://spark.apache.org/downloads.html). The latest version of `Apache Spark` at the time of writing this blog is `3.2.2`. 
 
 ## Environment
-To prepare our environment let install 
-- `Python 3.9`
-- `Java 11 Zulu`
+To prepare our environment let install `Java 11 Zulu`
 
 ```
 curl -s "https://get.sdkman.io" | bash
@@ -34,7 +32,7 @@ cd spark-3.2.2-bin-hadoop3.2/sbin
 # On the same WebUI you will see a worker registered 
 ```
 
-Congratulations, You now have Master UI on `localhost:8080`. Let's submit a test job to make sure everything works well.
+Congratulations, You now have Master UI on `http://sais-air:8080/`. Let's submit a test job to make sure everything works well.
 
 ![Spark Master Web UI](spark-new.png)
 
