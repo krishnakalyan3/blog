@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Spark UI"
+title: "Part 1 - Building your own Spark UI"
 date: "2020-11-12"
 categories: [data-engineering, apache-spark, performance]
 image: "spark-logo-rev.svg"
