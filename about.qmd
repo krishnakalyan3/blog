@@ -18,13 +18,12 @@ about:
       href: https://github.com/krishnakalyan3/blog
 ---
 
-Hi, thanks for dropping by. When I am not spending my time understanding `Distributed System` or `Latent Spaces`, I teach Yoga or play acoustic guitar (I own a Fender Newporter).
+### About Me
+Hi, thanks for dropping by. During the day, I am usually practicing yoga or noodling my [guitar](https://www.fender.com/en-PL/acoustic-guitars/newporter/newporter-player/0970743062.html). By the time its night I spend my time understanding `Distributed System` or `Latent Spaces`.
 
 ### Education
 
 I have a double Masters in Data Science from [Polytechnic University of Catalonia](https://www.fib.upc.edu/en/studies/masters/master-innovation-and-research-informatics) and [University of Lyon](https://www.em-dmkm.eu/). 
-
-### Experience
 
 
 ### Open Source Contributions
