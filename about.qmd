@@ -15,7 +15,7 @@ about:
       href: mailto:krishnakalyan3@gmail.com
     - icon: file-pdf
       text: Resume
-      href: https://github.com/krishnakalyan3/blog
+      href: https://drive.google.com/file/d/1HVaKSrY79I8fBmH2-ZC-jL6-Ut2Wwu9b/view?usp=sharing
 ---
 
 ### About Me
