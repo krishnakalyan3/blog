@@ -1,0 +1,25 @@
+---
+title: "Visualize sample data with Histogram"
+date: "2020-11-22"
+categories: [data-visualization, R]
+image: "bin.jpg"
+---
+
+Generating sample data can always help me to understand any underlying concept better. Let's explore the `sample` function. It takes the following parameters (Sample Range, Number of samples, Should the sample be with or without replacement). To know more about this function execute `?sample`
+
+```{r}
+set.seed(123)
+x <- sample(x = 1:10, replace=TRUE, size  = 10); x
+```
+The `set.seed` function makes sure that every time random data is generated it is the same. 
+
+### Histogram
+A histogram basically groups data into bins. `bins` are also called `buckets`, `intervals`. Histogram represents the distribution of numerical data. The first step is to `bin` the data into a series of non overlapping intervals.
+
+```{r}
+hist(x, breaks=3)
+```
+
+There are many practical applications of Histograms. Some of them are
+- Visualizing the underlying distribution of data for statistical analysis
+- [DBBahn](https://www.bahn.com/en) uses give fare discounts to people based on age

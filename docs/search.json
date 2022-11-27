@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Latent Tendencies",
     "section": "",
-    "text": "data-engineering\n\n\napache-spark\n\n\nperformance\n\n\n\n\n\n\n\n\n\n\n\nNov 12, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nconda\n\n\nmamba\n\n\nenvironment\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
+    "text": "data-visualization\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 22, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata-engineering\n\n\napache-spark\n\n\nperformance\n\n\n\n\n\n\n\n\n\n\n\nNov 12, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nconda\n\n\nmamba\n\n\nenvironment\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nmachine-learning\n\n\nhardware\n\n\ndeeplearning\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -16,21 +16,21 @@
   {
     "objectID": "posts/spark-ui/spark-ui-part1.html",
     "href": "posts/spark-ui/spark-ui-part1.html",
-    "title": "Part 1 - Building your own Spark UI",
+    "title": "Building your own Spark UI",
     "section": "",
     "text": "Debugging Spark jobs can be quite hard. Spark UI is one of the most important tools you have at your disposal to quickly investigate the issue you face at the moment. Lets begin by installing Apache Spark from binaries. The latest version of Apache Spark at the time of writing this blog is 3.2.2."
   },
   {
     "objectID": "posts/spark-ui/spark-ui-part1.html#environment",
     "href": "posts/spark-ui/spark-ui-part1.html#environment",
-    "title": "Part 1 - Building your own Spark UI",
+    "title": "Building your own Spark UI",
     "section": "Environment",
     "text": "Environment\nTo prepare our environment let install Java 11 Zulu\ncurl -s \"https://get.sdkman.io\" | bash\nsdk list java\nsdk install java 11.0.17-zulu\nAfter installing the prerequisite software, Let’s start a standalone cluster. In addition there are other ways of deploying a spark cluster which we will not be covering - Mesos - Yarn - Kubernetes\n# Download the latest spark binaries\ntar -xvzf spark-3.2.2-bin-hadoop3.2.tgz\ncd spark-3.2.2-bin-hadoop3.2/sbin\n./start-master.sh\n# Open another tab in the browser to check localhost:8080 works\n# Copy URL, In my case its spark://Sais-Air:7077\n\n./start-worker.sh spark://Sais-Air:7077\n# On the same WebUI you will see a worker registered \nCongratulations, You now have Master UI on http://sais-air:8080/. Let’s submit a test job to make sure everything works well.\n\n\n\nSpark Master Web UI\n\n\n./bin/spark-submit \\\n--class org.apache.spark.examples.SparkPi \\\n--master spark://Sais-Air:7077 \\\nexamples/jars/*-examples_*.jar \\\n1000\n\n\n\n\n\n\nNote\n\n\n\nI am on java 17.0.5-zulu. Hence have to pass extra --driver-java-options to fix the error cannot access class sun.nio.ch.DirectBuffer. StackoverFlow"
   },
   {
     "objectID": "posts/spark-ui/spark-ui-part1.html#links",
     "href": "posts/spark-ui/spark-ui-part1.html#links",
-    "title": "Part 1 - Building your own Spark UI",
+    "title": "Building your own Spark UI",
     "section": "Links:",
     "text": "Links:\n\nSdkMan"
   },
@@ -103,5 +103,12 @@
     "title": "Building your own Deep Learning Workstation",
     "section": "Links",
     "text": "Links\n\nMy Build on PC Part Picker\nTim Dettmers Blog\nBuild your deep learning box Fast AI thread\nMindfactory"
+  },
+  {
+    "objectID": "posts/binning-data/binning.html",
+    "href": "posts/binning-data/binning.html",
+    "title": "Visualize sample data with Histogram",
+    "section": "",
+    "text": "set.seed(123)\nx <- sample(x = 1:10, replace=TRUE, size  = 10); x\n\n [1]  3  3 10  2  6  5  4  6  9 10\n\n\nThe set.seed function makes sure that every time random data is generated it is the same.\n\nHistogram\nA histogram basically groups data into bins. bins are also called as buckets, intervals. Histogram represents the distribution of numrical data. The fist step is to bin the data into a series of non overlapping intervals.\n\nhist(x, breaks=3)\n\n\n\n\nThere are many practical applications of Histograms. - Visualizing the underlying distribution of data for data analysis - DBBahn uses give fare discounts to people based on age"
   }
 ]
