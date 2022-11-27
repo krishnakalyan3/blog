@@ -7,12 +7,14 @@ website:
   google-analytics: "G-2MBKRDEPBV"
   navbar:
     right:
-      - about.qmd
-      - text: Talks
-        href: "talks.html"
       - icon: github
         href: https://github.com/krishnakalyan3/blog
-      
+      - icon: twitter
+        href: https://twitter.com/krishnakalyan3
+      - icon: linkedin
+        href: https://www.linkedin.com/in/krishnakalyan3/
+      - icon: envelope
+        href: mailto:krishnakalyan3@gmail.com
 
 format:
   html:
