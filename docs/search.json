@@ -109,6 +109,6 @@
     "href": "posts/binning-data/binning.html",
     "title": "Visualize sample data with Histogram",
     "section": "",
-    "text": "set.seed(123)\nx <- sample(x = 1:10, replace=TRUE, size  = 10); x\n\n [1]  3  3 10  2  6  5  4  6  9 10\n\n\nThe set.seed function makes sure that every time random data is generated it is the same.\n\nHistogram\nA histogram basically groups data into bins. bins are also called as buckets, intervals. Histogram represents the distribution of numrical data. The fist step is to bin the data into a series of non overlapping intervals.\n\nhist(x, breaks=3)\n\n\n\n\nThere are many practical applications of Histograms. - Visualizing the underlying distribution of data for data analysis - DBBahn uses give fare discounts to people based on age"
+    "text": "set.seed(123)\nx <- sample(x = 1:10, replace=TRUE, size  = 10); x\n\n [1]  3  3 10  2  6  5  4  6  9 10\n\n\nThe set.seed function makes sure that every time random data is generated it is the same.\n\nHistogram\nA histogram basically groups data into bins. bins are also called buckets, intervals. Histogram represents the distribution of numerical data. The first step is to bin the data into a series of non overlapping intervals.\n\nhist(x, breaks=3)\n\n\n\n\nThere are many practical applications of Histograms. Some of them are\n\nVisualizing the underlying distribution of data for statistical analysis\nDBBahn uses give fare discounts to people based on age"
   }
 ]

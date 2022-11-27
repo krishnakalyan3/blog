@@ -205,7 +205,7 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 
 
 
-<p>Lets generate some sample data to undestand this concept better. Will will use the <code>sample</code> function, that takes the following parameters (Sample Range, Number of samples, Should the sample be with or without replacement).</p>
+<p>Generating sample data can always help me to understand any underlying concept better. Let’s explore the <code>sample</code> function. It takes the following parameters (Sample Range, Number of samples, Should the sample be with or without replacement). To know more about this function execute <code>?sample</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="at">x =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">replace=</span><span class="cn">TRUE</span>, <span class="at">size  =</span> <span class="dv">10</span>); x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -216,14 +216,18 @@ gtag('config', 'G-2MBKRDEPBV', { 'anonymize_ip': true});
 <p>The <code>set.seed</code> function makes sure that every time random data is generated it is the same.</p>
 <section id="histogram" class="level3">
 <h3 class="anchored" data-anchor-id="histogram">Histogram</h3>
-<p>A histogram basically groups data into bins. <code>bins</code> are also called as <code>buckets</code>, <code>intervals</code>. Histogram represents the distribution of numrical data. The fist step is to <code>bin</code> the data into a series of non overlapping intervals.</p>
+<p>A histogram basically groups data into bins. <code>bins</code> are also called <code>buckets</code>, <code>intervals</code>. Histogram represents the distribution of numerical data. The first step is to <code>bin</code> the data into a series of non overlapping intervals.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x, <span class="at">breaks=</span><span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="binning_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>There are many practical applications of Histograms. - Visualizing the underlying distribution of data for data analysis - <a href="https://www.bahn.com/en">DBBahn</a> uses give fare discounts to people based on age</p>
+<p>There are many practical applications of Histograms. Some of them are</p>
+<ol type="1">
+<li>Visualizing the underlying distribution of data for statistical analysis</li>
+<li><a href="https://www.bahn.com/en">DBBahn</a> uses give fare discounts to people based on age</li>
+</ol>
 
 
 </section>

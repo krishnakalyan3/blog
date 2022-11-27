@@ -21,5 +21,6 @@ hist(x, breaks=3)
 ```
 
 There are many practical applications of Histograms. Some of them are
-- Visualizing the underlying distribution of data for statistical analysis
-- [DBBahn](https://www.bahn.com/en) uses give fare discounts to people based on age
+
+1. Visualizing the underlying distribution of data for statistical analysis
+2. [DBBahn](https://www.bahn.com/en) uses give fare discounts to people based on age
