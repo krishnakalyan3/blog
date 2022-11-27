@@ -45,7 +45,7 @@ examples/jars/*-examples_*.jar \
 ```
 
 ::: {.callout-note}
-I am on java 17.0.5-zulu. Hence have to pass extra `--driver-java-options` to fix the error `cannot access class sun.nio.ch.DirectBuffer`.
+If you are using java 17.0.5-zulu, you may need to pass `--driver-java-options` to fix the error `cannot access class sun.nio.ch.DirectBuffer`.
 [StackoverFlow](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct)
 :::
 

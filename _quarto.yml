@@ -8,7 +8,7 @@ website:
   navbar:
     right:
       - icon: github
-        href: https://github.com/krishnakalyan3/blog
+        href: https://github.com/krishnakalyan3
       - icon: twitter
         href: https://twitter.com/krishnakalyan3
       - icon: linkedin
