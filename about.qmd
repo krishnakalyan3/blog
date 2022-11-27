@@ -1,5 +1,5 @@
 ---
-title: "Krishna Kalyan"
+title: "About"
 image: kalyan.jpg
 about:
   template: trestles
