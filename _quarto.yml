@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Latent Tendencies"
+  title: "Krishna Kalyan"
   google-analytics: "G-2MBKRDEPBV"
+  favicon: favicon.ico
   navbar:
     right:
       - icon: github
